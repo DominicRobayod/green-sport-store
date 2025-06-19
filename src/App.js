@@ -1,4 +1,7 @@
 import React from 'react';
+import conjunto from './images/conjunto-femenino.webp'
+import camisa from './images/camisa-adidas.webp'
+import pantalon from './images/pantalon.webp'
 
 function App() {
   const name1 = "Conjunto Deportivo de Mujer";
@@ -11,7 +14,6 @@ function App() {
   return (
     <div style={{
       fontFamily: 'Arial, sans-serif',
-      padding: '2rem',
       background: 'linear-gradient(to right, #e0f7fa, #fff)'
     }}>
       <h1 style={{
@@ -36,14 +38,16 @@ function App() {
         <h2>{name1}</h2>
         <p>{desc1}</p>
         <img
-          src="https://via.placeholder.com/3000"
-          style={{ width: '100%', borderRadius: '0.5rem' }}
+          src = {conjunto} 
+          alt="Imagen de un conjunto deportivo femenino marca lululemon" 
+          style={{ width: '60%', borderRadius: '0.5rem' }}
         />
+        <br></br>
         <button style={{
           marginTop: '1rem',
           padding: '0.5rem 1rem',
           backgroundColor: '#f44336',
-          color: '#fff',
+          color: 'black',
           border: 'none',
           borderRadius: '0.5rem'
         }}>Comprar</button>
@@ -62,14 +66,16 @@ function App() {
         <h2>{name2}</h2>
         <p>{desc2}</p>
         <img
-          src="https://via.placeholder.com/3000"
-          style={{ width: '100%', borderRadius: '0.5rem' }}
+          src = {camisa} 
+          alt="Imagen de una camisa de compresion marca adidas" 
+          style={{ width: '60%', borderRadius: '0.5rem' }}
         />
+        <br></br>
         <button style={{
           marginTop: '1rem',
           padding: '0.5rem 1rem',
           backgroundColor: '#f44336',
-          color: '#fff',
+          color: 'black',
           border: 'none',
           borderRadius: '0.5rem'
         }}>Comprar</button>
@@ -88,14 +94,16 @@ function App() {
         <h2>{name3}</h2>
         <p>{desc3}</p>
         <img
-          src="https://via.placeholder.com/3000"
-          style={{ width: '100%', borderRadius: '0.5rem' }}
+          src = {pantalon} 
+          alt="Imagen de un pantalono marca underarmor" 
+          style={{ width: '60%', borderRadius: '0.5rem' }}
         />
+         <br></br>
         <button style={{
           marginTop: '1rem',
           padding: '0.5rem 1rem',
           backgroundColor: '#f44336',
-          color: '#fff',
+          color: 'black',
           border: 'none',
           borderRadius: '0.5rem'
         }}>Comprar</button>
